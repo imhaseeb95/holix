@@ -1,15 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -602,8 +590,7 @@ body{
   overflow: hidden;
 }
 .faq-card .card-action{
-  --action-bg:var(--go-green_8);
-  --color: var(--granite-gray);
+  
   background-color: var(----action-bg);
   color: var(--color);
   display: flex;
@@ -612,10 +599,11 @@ body{
   padding: 20px 30px;
   column-gap: 20px;
   transition: var(--transition-1);
+  width: 100%;
 }
 .faq-card .card-action:is(:hover, :focus, .active){
   background-color: var(--go-green);
-  color: var(--white);
+  color:var(--white);
 }
 .faq-card .card-title{
   color:var(--color);
@@ -824,6 +812,7 @@ body{
   
   .btn-grp {
     margin-bottom: 0; 
+
   }
 
 }
@@ -877,6 +866,9 @@ body{
 @media(min-width: 992px){
   .custom-container{
     max-width: 960px;
+  }
+  .btn-grp{
+    padding: 16px 15px;
   }
 
   /*header*/
